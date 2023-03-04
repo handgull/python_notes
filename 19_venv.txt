@@ -1,0 +1,4 @@
+pip(3) install pyjokes          # installa il package pyjokes all'ultima versione
+pip(3) install pyjokes==0.4.0   # installa la specifica versione
+pip(3) list                     # mostra i package installati
+venv pipenv... un casino

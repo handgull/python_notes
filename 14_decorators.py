@@ -1,7 +1,7 @@
 # Decorator pattern
 # i decorators funzionano grazie alla feature di python di far funzionare le funzioni come variabili
 # Higher Order Functions HOC
-from time import time
+from time import time  # piccolo spoiler sui built-in modules
 
 
 def hello(func):  # è una higher order function perchè accetta in input e richiama un'altra funzione

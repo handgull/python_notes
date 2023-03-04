@@ -114,6 +114,7 @@ dict  # Dictionary, un altra data structure: una coppia chiave valore non ordina
 # tramite la key ho accesso immediato al valore, senza dover ciclare (cosa che faremo in una la list) alla ricerca
 # quello qui sotto è un dict[str, str] ma come le list i value possono essere di tipo diverso, sia per la key che per il value
 # tranne list, una key di una dict non può essere una lista
+# posso confrontare la struttura di un dictionary semplicemente facendo ==
 dictionary = {
     'key1': 'value1'
 }
@@ -159,3 +160,5 @@ print(other_set | my_set)  # short hand per la union
 # extra data type: complex per la matematica complessa
 
 # Classes -> custom data types
+
+# Specialized data types, moduli utili con tipi built-in
