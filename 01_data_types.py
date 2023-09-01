@@ -21,7 +21,7 @@ v2_1 = float('5')  # parso la stringa 5 in un float
 # <class 'float'> la somma tra un int e un float viene castata automaticamente in float
 print(type(2 + 2.1))
 # some math functions
-print(round(3.9))  # 3, arrotondo per eccesso
+print(round(3.9))  # 4, arrotondo per eccesso
 print(abs(-420))  # 420
 v3 = True  # bool
 v3_1 = bool('False')  # parso la stringa False in un bool
